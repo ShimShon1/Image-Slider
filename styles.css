@@ -1,0 +1,74 @@
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Cinzel', serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.background-img{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("cave.avif");
+    filter: blur(2px);
+    z-index: -1;
+
+}
+h1{
+    display: inline;
+    font-size: 3.3rem;
+    letter-spacing: 0.7rem;
+    color: #ddd;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic-cont{
+    padding: 3rem;
+    background-color: rgba(128, 128, 128, 0.212);
+    border: 10px double #ddd;
+    box-shadow: 3px 3px 3px 3px ;
+    width: 50%;
+    height: 50vh;
+    border-radius:5px;
+
+}
+.main-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.arrow{
+    cursor: pointer;
+    width: 7rem;
+}
+
+.points{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
